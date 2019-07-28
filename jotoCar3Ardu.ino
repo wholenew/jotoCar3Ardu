@@ -120,7 +120,7 @@ void brake() {
   l_pwm = 0; //小さいほど強くなる
   r_pwm = 0;
   digitalWrite(L_STEP, LOW);
-  digitalWrite(L_STEP, LOW);
+  digitalWrite(R_STEP, LOW);
 //  analogWrite(L_STEP, l_pwm);
 //  analogWrite(L_STEP, r_pwm);
 }
